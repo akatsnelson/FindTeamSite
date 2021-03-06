@@ -112,6 +112,18 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
+node-bin-setup@^1.0.0:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
+  integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
+
+node@^15.10.0:
+  version "15.10.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-15.10.0.tgz#082a1e03cb4b58199d4b427b379dca6053193260"
+  integrity sha512-JboERsul33BpTDeth8SsGWg/gTZfNEWGMT5HVqIoyepRwAARznCjwdWvLHHd/A9bvAYFp5zaq46RnVArWz44kA==
+  dependencies:
+    node-bin-setup "^1.0.0"
+
 owl.carousel@^2.3.4:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/owl.carousel/-/owl.carousel-2.3.4.tgz#6c53dc8d24304b790e4f27a1dc4a655e973ccdc9"
